@@ -1,0 +1,9 @@
+# buildspec.yml
+version: 0.2
+phases:
+  build:
+    commands:
+      - echo "Nothing to build - preparing files for deployment"
+artifacts:
+  files:
+    - index.html
